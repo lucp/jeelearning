@@ -1,2 +1,5 @@
 .project
 .settings/org.eclipse.m2e.core.prefs
+ejb-test/.classpath
+ejb-test/.settings/org.eclipse.jdt.core.prefs
+ejb-test/.settings/org.eclipse.m2e.core.prefs
