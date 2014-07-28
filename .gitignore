@@ -3,3 +3,9 @@
 ejb-test/.classpath
 ejb-test/.settings/org.eclipse.jdt.core.prefs
 ejb-test/.settings/org.eclipse.m2e.core.prefs
+ejb-client-test/.classpath
+ejb-client-test/.settings/org.eclipse.jdt.core.prefs
+ejb-client-test/.settings/org.eclipse.m2e.core.prefs
+ejb-test/.settings/org.eclipse.wst.common.component
+ejb-test/.settings/org.eclipse.wst.common.project.facet.core.xml
+ejb-test/.settings/org.eclipse.wst.validation.prefs
