@@ -9,3 +9,9 @@ ejb-client-test/.settings/org.eclipse.m2e.core.prefs
 ejb-test/.settings/org.eclipse.wst.common.component
 ejb-test/.settings/org.eclipse.wst.common.project.facet.core.xml
 ejb-test/.settings/org.eclipse.wst.validation.prefs
+.settings/org.eclipse.core.resources.prefs
+ejb-client-test/.settings/org.eclipse.core.resources.prefs
+ejb-test/.settings/.jsdtscope
+ejb-test/.settings/org.eclipse.core.resources.prefs
+ejb-test/.settings/org.eclipse.wst.jsdt.ui.superType.container
+ejb-test/.settings/org.eclipse.wst.jsdt.ui.superType.name
