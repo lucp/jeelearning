@@ -18,13 +18,11 @@ public class CounterClient {
 		try {
 			
 			Properties jndiProperties = new Properties();
-			jndiProperties.put("jboss.naming.client.ejb.context", true);
 			jndiProperties.put(Context.URL_PKG_PREFIXES, "org.jboss.ejb.client.naming");
 			InitialContext context = new InitialContext(jndiProperties);
-			CounterLocal counter = (CounterLocal) context.lookup("ejb:/ejb-test/CounterBean!service.CounterLocal");
+			CounterLocal counter = (CounterLocal) context.lookup("ejb:ejb-package-1.0.0-SNAPSHOT/ejb-test/CounterBean!service.CounterLocal");
 			
-			System.out.println(counter);
-			System.out.println("Counter state: "+ counter.getCurrent());
+			System.out.println("Counter state: "+ counter.getNextAndUpdate());
 			
 		} catch (NamingException e) {
 			// TODO Auto-generated catch block

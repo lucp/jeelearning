@@ -5,7 +5,7 @@ import javax.ejb.Remote;
 import javax.ejb.Stateless;
 
 @Stateless
-@Local(CounterLocal.class)
+@Remote(CounterLocal.class)
 public class CounterBean implements CounterLocal {
 
 	private int counter = 0;
@@ -40,8 +40,7 @@ public class CounterBean implements CounterLocal {
 
 	@Override
 	public int getFromDB() {
-		// TODO Auto-generated method stub
-		return 0;
+		return this.counter;
 	}
 
 }

@@ -15,3 +15,8 @@ ejb-test/.settings/.jsdtscope
 ejb-test/.settings/org.eclipse.core.resources.prefs
 ejb-test/.settings/org.eclipse.wst.jsdt.ui.superType.container
 ejb-test/.settings/org.eclipse.wst.jsdt.ui.superType.name
+ejb-package/.settings/org.eclipse.core.resources.prefs
+ejb-package/.settings/org.eclipse.m2e.core.prefs
+ejb-package/.settings/org.eclipse.wst.common.component
+ejb-package/.settings/org.eclipse.wst.common.project.facet.core.xml
+ejb-package/.settings/org.eclipse.wst.validation.prefs
