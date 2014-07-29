@@ -13,6 +13,7 @@
   	<module>ejb-test</module>
   	<module>ejb-client-test</module>
   	<module>ejb-package</module>
+  	<module>ejb-model</module>
   </modules>
   
   <dependencyManagement>
@@ -25,6 +26,13 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+  
+  <dependencies>
+  <dependency>
+    <groupId>javax</groupId>
+    <artifactId>javaee-api</artifactId>
+  </dependency>
+  </dependencies>
   
   <build>
 		<plugins>

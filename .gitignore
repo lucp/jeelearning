@@ -20,3 +20,9 @@ ejb-package/.settings/org.eclipse.m2e.core.prefs
 ejb-package/.settings/org.eclipse.wst.common.component
 ejb-package/.settings/org.eclipse.wst.common.project.facet.core.xml
 ejb-package/.settings/org.eclipse.wst.validation.prefs
+ejb-client-test/.settings/org.jboss.ide.eclipse.as.core.prefs
+ejb-model/.classpath
+ejb-model/.settings/org.eclipse.core.resources.prefs
+ejb-model/.settings/org.eclipse.jdt.core.prefs
+ejb-model/.settings/org.eclipse.m2e.core.prefs
+ejb-test/.settings/org.jboss.ide.eclipse.as.core.prefs
