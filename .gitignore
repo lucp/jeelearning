@@ -26,3 +26,12 @@ ejb-model/.settings/org.eclipse.core.resources.prefs
 ejb-model/.settings/org.eclipse.jdt.core.prefs
 ejb-model/.settings/org.eclipse.m2e.core.prefs
 ejb-test/.settings/org.jboss.ide.eclipse.as.core.prefs
+ejb-dao/.classpath
+ejb-dao/.settings/org.eclipse.core.resources.prefs
+ejb-dao/.settings/org.eclipse.jdt.core.prefs
+ejb-dao/.settings/org.eclipse.m2e.core.prefs
+ejb-dao/.settings/org.eclipse.wst.common.component
+ejb-dao/.settings/org.eclipse.wst.common.project.facet.core.xml
+ejb-dao/.settings/org.eclipse.wst.validation.prefs
+ejb-model/.settings/org.eclipse.wst.common.component
+ejb-model/.settings/org.eclipse.wst.common.project.facet.core.xml

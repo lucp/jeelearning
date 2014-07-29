@@ -14,6 +14,7 @@
   	<module>ejb-client-test</module>
   	<module>ejb-package</module>
   	<module>ejb-model</module>
+  	<module>ejb-dao</module>
   </modules>
   
   <dependencyManagement>
