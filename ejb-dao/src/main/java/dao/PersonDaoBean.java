@@ -1,6 +1,5 @@
 package dao;
 
-import javax.ejb.EJB;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -27,6 +26,12 @@ public class PersonDaoBean implements PersonDaoRemote {
 		q.setParameter("id", personId);
 		Person person = (Person) q.getSingleResult();
 		return person;
+	}
+
+	@Override
+	public Person loadPerson(String name) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

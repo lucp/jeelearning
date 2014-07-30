@@ -9,5 +9,6 @@ public interface PersonDaoRemote {
 
 	void savePerson(Person person);
 	Person loadPerson(Long personId);
+	Person loadPerson(String name);
 	
 }

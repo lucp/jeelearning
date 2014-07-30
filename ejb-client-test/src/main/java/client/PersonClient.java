@@ -20,8 +20,9 @@ public class PersonClient {
 			jndiProperties.put(Context.URL_PKG_PREFIXES, "org.jboss.ejb.client.naming");
 			InitialContext context = new InitialContext(jndiProperties);
 			PersonDaoRemote personDao = (PersonDaoRemote) context.lookup("ejb:ejb-package-1.0.0-SNAPSHOT/ejb-dao-1.0.0-SNAPSHOT/PersonDaoBean!dao.PersonDaoRemote");
-			Person person = new Person();
+			Person person = new Person("Jon Smith","London",10000);
 			personDao.savePerson(person);
+			System.out.println(personDao.loadPerson(2L).getName());
 			
 		} catch (NamingException e) {
 			// TODO Auto-generated catch block

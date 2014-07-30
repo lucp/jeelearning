@@ -33,25 +33,22 @@
 
 	<build>
 		<plugins>
-		<plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-ear-plugin</artifactId>
-        <version>2.9</version>
-        <configuration>
-          <version>1.3</version>
-          <defaultLibBundleDir>lib</defaultLibBundleDir>       
-          <modules>
-            <ejbModule>
-              <groupId>com.lucp</groupId>
-              <artifactId>ejb-service</artifactId>
-              <bundleFileName>ejb-service.jar</bundleFileName>
-            </ejbModule>
-           </modules>
-        </configuration>
-      </plugin>
-		
-			
-
+			<plugin>
+		       <groupId>org.apache.maven.plugins</groupId>
+		       <artifactId>maven-ear-plugin</artifactId>
+		       <version>2.9</version>
+		       <configuration>
+		         <version>1.3</version>
+		         <defaultLibBundleDir>lib</defaultLibBundleDir>       
+		         <modules>
+		           <ejbModule>
+		             <groupId>com.lucp</groupId>
+		             <artifactId>ejb-service</artifactId>
+		             <bundleFileName>ejb-service.jar</bundleFileName>
+		           </ejbModule>
+		          </modules>
+		       </configuration>
+		       </plugin>		
 		</plugins>
 	</build>
 	
