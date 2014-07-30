@@ -46,6 +46,11 @@
 		             <artifactId>ejb-service</artifactId>
 		             <bundleFileName>ejb-service.jar</bundleFileName>
 		           </ejbModule>
+		           <ejbModule>
+		             <groupId>com.lucp</groupId>
+		             <artifactId>ejb-dao</artifactId>
+		             <bundleFileName>ejb-dao.jar</bundleFileName>
+		           </ejbModule>
 		          </modules>
 		       </configuration>
 		       </plugin>		
