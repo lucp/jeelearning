@@ -15,6 +15,7 @@
   	<module>ejb-package</module>
   	<module>ejb-model</module>
   	<module>ejb-dao</module>
+  	<module>ejb-web</module>
   </modules>
   
   <dependencyManagement>

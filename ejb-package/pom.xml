@@ -29,6 +29,12 @@
 			<version>1.0.0-SNAPSHOT</version>
 			<type>jar</type>	
 		</dependency>
+		<dependency>
+			<groupId>com.lucp</groupId>
+			<artifactId>ejb-web</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+			<type>war</type>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -51,6 +57,11 @@
 		             <artifactId>ejb-dao</artifactId>
 		             <bundleFileName>ejb-dao.jar</bundleFileName>
 		           </ejbModule>
+		           <webModule>
+		             <groupId>com.lucp</groupId>
+		             <artifactId>ejb-web</artifactId>
+		             <bundleFileName>ejb-web.war</bundleFileName>
+		           </webModule>
 		          </modules>
 		       </configuration>
 		       </plugin>		

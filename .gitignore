@@ -35,3 +35,6 @@ ejb-dao/.settings/org.eclipse.wst.common.project.facet.core.xml
 ejb-dao/.settings/org.eclipse.wst.validation.prefs
 ejb-model/.settings/org.eclipse.wst.common.component
 ejb-model/.settings/org.eclipse.wst.common.project.facet.core.xml
+ejb-model/.settings/
+ejb-web/.classpath
+ejb-web/.settings/
