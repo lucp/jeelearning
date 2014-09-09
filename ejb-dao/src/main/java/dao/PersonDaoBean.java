@@ -18,7 +18,7 @@ public class PersonDaoBean implements PersonDaoRemote {
 
 	private static final String SELECT_ALL_PERSONS_SQL = "select p from Person p";
 	
-	@PersistenceContext(name = "LucpPerson")
+	@PersistenceContext(name = "PersonPU")
 	private EntityManager entityManager;
 	
 	@Override
