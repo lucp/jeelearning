@@ -18,7 +18,7 @@ public class PersonMDB implements MessageListener {
 	public void onMessage(Message message) {
 		TextMessage tx = (TextMessage)message;
 		try {
-			System.out.println(tx.getText());
+			System.out.println(" [PersonMDB] "+tx.getText());
 		} catch (JMSException e) {
 			e.printStackTrace();
 		}

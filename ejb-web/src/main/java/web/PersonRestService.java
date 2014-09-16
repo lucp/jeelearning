@@ -4,7 +4,6 @@ import java.util.List;
 
 import javax.ejb.EJB;
 import javax.ejb.Stateless;
-import javax.inject.Inject;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
@@ -12,6 +11,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
+import service.PersonJMSRemote;
 import model.Person;
 import dao.PersonDaoRemote;
 
@@ -21,6 +21,9 @@ public class PersonRestService {
 	
 	@EJB
 	private PersonDaoRemote personDao;
+	
+	@EJB
+	private PersonJMSRemote personJMS;
 	
 	@GET
 	@Produces("text/html")
@@ -50,4 +53,13 @@ public class PersonRestService {
 		System.out.println(person.getName());
 		this.getPersonDao().savePerson(person);
 	}
+	
+	@GET
+	@Path("/callJMS")
+	@Produces("text/html")
+	public String callJMS(){
+		this.personJMS.sendMessage("Hello JMS Service !");
+		return "Succes !";
+	}
+	
 }
